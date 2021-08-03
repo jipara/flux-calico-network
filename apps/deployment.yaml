@@ -22,3 +22,11 @@ spec:
           name: nginx
           securityContext:
             privileged: true
+          volumeMounts:
+            - mountPath: /test-pd
+              name: test-volume
+      volumes:
+        - name: test-volume
+          hostPath:
+            # directory location on host
+            path: /data
