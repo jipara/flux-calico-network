@@ -5,3 +5,4 @@ resources:
   - tools/calico
   - tools/opa
   - opa-example/allow-privilege-escalation
+  - opa-example/privileged
