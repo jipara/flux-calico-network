@@ -4,3 +4,4 @@ resources:
   - apps
   - tools/calico
   - tools/opa
+  - opa-example/allow-privilege-escalation
