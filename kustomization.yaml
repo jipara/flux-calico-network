@@ -6,3 +6,4 @@ resources:
   - tools/opa
   - opa-example/allow-privilege-escalation
   - opa-example/privileged
+  - opa-example/volumes
